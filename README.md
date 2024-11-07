@@ -32,19 +32,10 @@ Overall, results highlight the influence of holiday periods on sales increases, 
 ### 2. External Factors Impacting Sales
 Explored how external factors like fuel price, CPI, and unemployment influence weekly sales through correlation analysis and linear regression models.
 
-### 3. Store with the highest Sales and Year of hughest sales.
-Performed a seasonal decomposition on weekly sales to separate the data into trend, seasonality, and residual components, revealing underlying patterns in sales cycles.
-
 ## Modeling
 
 ### 1. Linear Regression
 The MSE is high, it suggests that the model's predictions have significant error and may be poorly aligned with actual sales, which might indicate missing influential variables or a need for more complex modeling.
-
-### 2. KMeans Clustering
-Applied KMeans clustering to segment stores based on sales behavior, grouping similar stores together and identifying patterns among different clusters.
-
-### 3. ARIMA Time Series Forecasting
-Developed an ARIMA model to forecast future weekly sales, providing predictions based on past data trends and seasonal adjustments.
 
 ## Repository Structure
 
